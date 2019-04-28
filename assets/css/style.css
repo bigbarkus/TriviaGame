@@ -1,0 +1,16 @@
+.card {
+    margin-top: 20%;
+    padding: 20px;
+    background: rgb(230, 215, 5);
+}
+
+body {
+    background: url(/Users/milesmoscara/bootcamp/TriviaGame/assets/images/tetris-pattern-hd-widescreen.jpg)
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

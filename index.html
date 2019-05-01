@@ -10,21 +10,32 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../TriviaGame/assets/css/style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </head>
 
 <body>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
-
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="card">
+                <div class="jumbotron">
+                    <h1 class="display-4"></h1>
+                </div>
+                <div class="card" id="startcard">
+                    <p>Welcome to Trivia!</p>
+
+                    <button type="button" id="buttonstart" class="btn btn-lg">Start!</button>
+                </div>
+                <div class="card" id="endcard"></div>
+
+                <div class="card" id="maincard">
                     <div id="img"></div>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Card title</h5>
-                        <button type="button" id="button1" class="btn btn-danger btn-lg btn-block"></button>
-                        <button type="button" id="button2" class="btn btn-success btn-lg btn-block"></button>
-                        <button type="button" id="button3" class="btn btn-primary btn-lg btn-block"></button>
+                        <h3 id="question"></h3>
+                        <h5 class="card-title text-center">Time:</h5>
+                        <button type="button" class="btn btn-danger btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-success btn-lg btn-block"></button>
+                        <button type="button" class="btn btn-primary btn-lg btn-block"></button>
                     </div>
                 </div>
             </div>

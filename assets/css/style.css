@@ -1,5 +1,4 @@
 .card {
-    margin-top: 20%;
     padding: 20px;
     background: rgb(230, 215, 5);
 }
@@ -14,3 +13,36 @@ body {
     margin-right: auto;
     width: 50%;
   }
+
+  .jumbotron {
+    position: absolute;
+    left: 302px;
+    top: 100px;
+    z-index: 1;
+    width: 536px;
+    text-align: center;
+}
+
+#startcard {
+    position: absolute;
+    left: inherit;
+    top: 200px;
+    z-index: 1;
+    text-align: center;
+    width: 1110px;
+    height: 165px;
+}
+
+#endcard {
+    position: absolute;
+    left: inherit;
+    top: 200px;
+    z-index: 2;
+    text-align: center;
+    width: 1110px;
+    height: 165px;
+}
+
+h3 {
+    text-align: center;
+}

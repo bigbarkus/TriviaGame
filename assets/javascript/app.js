@@ -127,6 +127,7 @@ $(function () {
     function ShowCorrectAnswerCard() {
         $(".jumbotron").show();
         $(".jumbotron").text("Wrong! Here's the right answer:");
+        // for loop going through correct answers checking for which respective function and displaying
         $(".jumbotron").append(`<p>${questionlist[0].correct}</p>`);
     }
 
